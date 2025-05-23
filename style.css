@@ -1,5 +1,59 @@
+/*Center the header text*/
+header{
+  text-align: center;
+}
+
+/*Center the main image*/
+img{
+  display: block;
+  margin: auto;
+}
+
+/*Style navigation links inside the navbar*/
+nav a{
+  padding: 0 10px;
+  background color:grey;
+  text decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+/*style the image caption*/
+figcaption{
+  text-align: center;
+  font-style: italic;
+  color: grey;
+}
+/*Style the footer*/
+footer{
+  text-align: center;
+  font-size: 0.8em;
+  color: grey;
+}
+
 body {
   width: 100%;
   height: 100%;
   margin: 0;
+}
+
+h1{
+color:red;
+}
+
+/*style paragragh text inside #featured-property*/
+#featured-property p{
+  width: 800px;
+  margin: 20px auto; /* adds apacing above and below*/
+  text-align: center;
+}
+
+/* Make #details section display horizontally */
+#details div {
+  float: left;
+  width: 25%;
+  background-color: #f2f2f2; /* light grey background for visual clarity */
+  text-align: center;
+  box-sizing: border-box; /* include padding and border in width */
+  padding: 10px;
 }
